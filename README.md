@@ -1,4 +1,4 @@
-# Red Wine Classification Problem
+# Twitter Sentiment Analysis
 
 ## Demo Video (coming soon)
 
