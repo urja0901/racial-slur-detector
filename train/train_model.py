@@ -10,7 +10,7 @@ def f1_score_(y_proba,y_test):
   return f1_score( proba,y_test) 
 
 def train_model(X_train, y_train, X_test=None, y_test=None):
-    k=[3,5,7,11]
+    k=[3]
     accuracy_train=[]
     accuracy_test=[]
     metadata = {}
@@ -48,7 +48,8 @@ def train_model(X_train, y_train, X_test=None, y_test=None):
     metadata["accuracy_test"] = accuracy_test
     metadata["f1_scor_train"] = f1_scor_train
     metadata["f1_scor_test"] = f1_scor_test
-
+    metadata["y_pred"] = y_pred
+  
     return model, metadata
 
 

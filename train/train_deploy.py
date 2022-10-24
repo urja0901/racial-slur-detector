@@ -17,8 +17,8 @@ python_build = PythonBuild(
 )
 env = {
     # These will automatically map the secret value to the environment variable.
-    "MLF_HOST": "https://app.develop.truefoundry.tech",
-    "MLF_API_KEY": "tfy-secret://urja-jobanputra:test01:key1",
+    "MLF_HOST": "https://app.truefoundry.com",
+    "MLF_API_KEY": "tfy-secret://Urja-Jobanputra:test0:key0",
 }
 job = Job(
     name="twitter-sentiment",

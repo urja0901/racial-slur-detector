@@ -45,7 +45,7 @@ def get_initial_data(train_data_path, test_data_path):
     bow=CountVectorizer( min_df=2, max_features=1000)
     bow.fit(df['preprocess_tweet'])
     bow_df=bow.transform(df['preprocess_tweet']).toarray()
-    print('feature name==',bow.get_feature_names()[:10])
+    print('feature name==',bow.get_feature_names_out()[:10])
     print('number of uniqe words',bow_df.shape[1])
     print('shape',bow_df.shape)
     bow_train=pd.DataFrame(bow_df)
