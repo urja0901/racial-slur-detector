@@ -3,6 +3,7 @@
 ## Demo Video (coming soon)
 
 #### Blog with instructions on the run (coming soon)
+#### [Link to Live demo](https://sentiment-analysis-demo-demo-projects.tfy-ctl-euwe1-production.production.truefoundry.com/)
 
 ## Description of the Problem
 

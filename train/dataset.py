@@ -42,7 +42,7 @@ def get_initial_data(train_data_path, test_data_path):
     train=df.copy()
     train.drop(columns=['id','tweet','preprocess_tweet'],inplace=True)
 
-    bow=CountVectorizer( min_df=2, max_features=1000)
+    bow=CountVectorizer(max_features=1000)
     bow.fit(df['preprocess_tweet'])
     bow_df=bow.transform(df['preprocess_tweet']).toarray()
     print('feature name==',bow.get_feature_names_out()[:10])
@@ -63,5 +63,8 @@ def get_initial_data(train_data_path, test_data_path):
     x=df_bow_upsampled.iloc[:,0:-1]
     y=df_bow_upsampled['label']
     X_train, X_test, y_train, y_test = train_test_split(x,y,test_size=0.2)
-
-    return X_train, X_test, y_train, y_test
+    print("X_train", X_train.shape)
+    print("y_train", y_train.shape)
+    print("X_test", X_test.shape)
+    print("y_test", y_test.shape)
+    return X_train, X_test, y_train, y_test, bow

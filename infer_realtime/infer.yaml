@@ -12,7 +12,8 @@ components:
   env:
     MLF_HOST: https://app.truefoundry.com
     MLF_API_KEY: 'djE6dHJ1ZWZvdW5kcnk6VXJqYS1Kb2JhbnB1dHJhOjUwYjQ4NQ==' # Get the API_KEY from the settings of truefoundry account
-    MLF_MODEL_VERSION_FQN: <paste you model version fqn here>
+    MODEL_FQN: <paste you model version fqn here>
     WORKSPACE_FQN: <paste you workspace fqn here> # Add the WORKSPACE_FQN
+    RUN_ID: <paste you run id here>
   ports:
       - port: 8000
