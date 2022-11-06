@@ -4,7 +4,7 @@
 
 #### Blog with instructions on the run (coming soon)
 #### [Link to Live demo](https://sentiment-analysis-demo-demo-projects.tfy-ctl-euwe1-production.production.truefoundry.com/)
-
+#### [Colab Notebook](https://colab.research.google.com/drive/1mWhYBiVnduQHrUqazu-fwzWze7zjGt-W#scrollTo=sKIGCDWJEZsv)
 ## Description of the Problem
 
 The aim of the problem is to classify the tweets using sentiment analysis on the famous twitter dataset.
