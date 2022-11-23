@@ -36,7 +36,7 @@ def main():
     request_url = env_vars['components'][0]['env']['INFER_URL']
     st.set_page_config(page_title="Racial Slur Detector")
     add_bg_from_local('image2.jpeg')
-    st.title("Twitter Sentiment Analysis")
+    st.title("Racial Slur Detector")
     st.header('Welcome to Racial Slur Detector inference!')
     st.write('This is a sample app that demonstrates the prowess of ServiceFoundry ML model deployment.🚀')
     st.write('Visit the [Github](https://github.com/urja0901/racial-slur-detector) repo for code or [Google Colab](https://colab.research.google.com/drive/1mWhYBiVnduQHrUqazu-fwzWze7zjGt-W?usp=sharing) notebook for a quick start.')
