@@ -1,6 +1,6 @@
-name: twitter-sentiment-analysis-demo
+name: racial-slur-demo
 components:
-- name: twitter-sentiment-analysis-demo
+- name: racial-slur-demo
   type: job
   image:
     type: build
@@ -9,6 +9,7 @@ components:
     build_spec:
       type: tfy-python-buildpack
       command: streamlit run demo/demo.py
+
   env:
     MLF_HOST: https://app.develop.truefoundry.tech
     MLF_API_KEY: 'MLF_API_KEY' # Get the API_KEY from the settings of truefoundry account

@@ -3,12 +3,12 @@
 ## Demo Video (coming soon)
 
 #### Blog with instructions on the run (coming soon)
-#### [Link to Live demo](https://sentiment-analysis-demo-demo-projects.tfy-ctl-euwe1-production.production.truefoundry.com/)
-#### [Colab Notebook](https://colab.research.google.com/drive/1mWhYBiVnduQHrUqazu-fwzWze7zjGt-W#scrollTo=sKIGCDWJEZsv)
+#### [Link to Live demo](https://racial-slur-demo-demo-projects.tfy-ctl-euwe1-production.production.truefoundry.com)
+#### [Colab Notebook](https://colab.research.google.com/drive/1mWhYBiVnduQHrUqazu-fwzWze7zjGt-W?usp=sharing)
 #### [Link to live deployment demo](https://www.loom.com/share/1e6570a2accc42ffb310f759b9375ca2)
 ## Description of the Problem
 
-The aim of the problem is to classify the tweets using sentiment analysis on the famous twitter dataset.
+The aim of the problem is to identify racial slur in twitter comments.
 
 ## Dataset Description
 
